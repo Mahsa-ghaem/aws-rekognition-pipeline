@@ -1,8 +1,8 @@
-#AWS Rekognition Pipeline
+#### AWS Rekognition Pipeline
 
 
-###Overview
-This project demonstrates a serverless machine learning workflow built entirely on AWS. It uses Amazon S3, AWS Lambda, Amazon Rekognition, and DynamoDB to automatically analyze uploaded images and store the results in a structured database. The solution highlights my experience in Python-based cloud automation, AI integration, and data architecture design.
+### Overview
+This project demonstrates a **serverless machine learning workflow** built entirely on **AWS**. It uses **Amazon S3**, **AWS Lambda**, **Amazon Rekognition**, and **DynamoDB** to automatically analyze uploaded images and store the results in a structured database. The solution highlights my experience in Python-based cloud automation, AI integration, and data architecture design.
 
 ------
 
