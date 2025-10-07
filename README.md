@@ -39,6 +39,23 @@ Version Control: Git, GitHub
 2.Integrate visualization dashboard using Power BI or Streamlit.
 3.Extend model analysis to facial recognition or text detection.
 
+
+### Deployment Notes
+This project is deployed on AWS using the following resources:
+- S3 bucket (image uploads)
+- AWS Lambda (image analysis trigger)
+- Amazon Rekognition (image recognition API)
+- DynamoDB (results storage)
+
+To replicate:
+1. Create an S3 bucket and enable triggers.
+2. Deploy the Lambda function with `lambda_function.py`.
+3. Attach AWSLambdaBasicExecutionRole and Rekognition permissions.
+4. Test by uploading images to S3.
+
+
+
+
 ### Author
 Dr. Mahsa Ghaempanah
 Data Scientist & Software Engineer (Python, SQL, ML, Cloud/AWS)
