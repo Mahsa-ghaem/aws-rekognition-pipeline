@@ -1,0 +1,18 @@
+{
+  "ImageName": "uploaded-image.jpg",
+  "Bucket": "my-s3-bucket-name",
+  "Labels": [
+    {
+      "Name": "Person",
+      "Confidence": 99.21
+    },
+    {
+      "Name": "Glasses",
+      "Confidence": 95.38
+    },
+    {
+      "Name": "Outdoors",
+      "Confidence": 87.42
+    }
+  ]
+}
