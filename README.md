@@ -13,6 +13,7 @@ This project demonstrates a **serverless machine learning workflow** built entir
 3. **Amazon Rekognition** – Performs image analysis and object detection on the uploaded files.  
 4. **DynamoDB** – Stores analysis results such as detected objects, labels, and confidence scores.  
 5. **(Optional) CloudWatch Logs** – Monitors and logs the entire pipeline for debugging and performance tracking.  
+![AWS Architecture Diagram](docs/architecture.png)
 
 
 ### Key Features
